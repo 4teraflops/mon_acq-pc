@@ -1,7 +1,6 @@
 import requests
 import sqlite3
-import config
-import os
+import os, importlib
 from datetime import datetime
 import time
 import logging
@@ -12,6 +11,11 @@ import json
 logging.basicConfig(filename="log/app.log", level=logging.INFO)
 logger = logging.getLogger(__name__)
 db_path = os.getcwd() + os.sep + 'src' + os.sep + 'db.sqlite'
+# Храним чувствительные данные в переменной окружения
+# Это значение по умолчанию на случай, если переменной окружения не будет
+os.environ.setdefault('SETTINGS_MODULE', 'config')
+# Импортируем модуль, указанный в переменной окружения
+config = importlib.import_module(os.getenv('SETTINGS_MODULE'))
 
 
 def get_json():  # забираем json
@@ -77,9 +81,10 @@ def check_values():
     try:  # По итерации сравниваются значения двух массивов. 8 - это кол-во элементов в каждом массиве
         for i in range(0, 8):
             if val[0][i] != val[1][i]:
-                logger.info(val[0][i], 'Не равно', val[1][i])
+                logger.info(f'Значение "{values_names[i]}" сменилось с {val[0][i]} на {val[1][i]}')
                 alarmtext = f'Значение "{values_names[i]}" сменилось с {val[0][i]} на {val[1][i]}'
                 do_alarm(alarmtext)
+                logger.info('Сработал аларм')
     except IndexError:
         print('Индексы кончились')
         logger.info('Кончились индексы в def check_values(). Проверь какие данные выгружаешь и сколько.')
