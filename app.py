@@ -1,5 +1,6 @@
 import requests
 import sqlite3
+import config
 import os
 from datetime import datetime
 import time
@@ -86,7 +87,7 @@ def check_values():
 
 def do_alarm(alarmtext):  # отправка сообщения в канал slack
     headers = {"Content-type": "application/json"}
-    url = "https://hooks.slack.com/services/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"
+    url = config.webhook_url
     payload = {"text": f"{alarmtext}"}
     requests.post(url, headers=headers, data=json.dumps(payload))
 
