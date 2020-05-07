@@ -8,7 +8,7 @@ import json
 
 
 # Константы
-logging.basicConfig(filename="log/app.log", level=logging.INFO)
+logging.basicConfig(filename="log/app.log", level=logging.DEBUG, format=u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s [%(asctime)s]  %(message)s')
 logger = logging.getLogger(__name__)
 db_path = os.getcwd() + os.sep + 'src' + os.sep + 'db.sqlite'
 # Храним чувствительные данные в переменной окружения
@@ -34,6 +34,7 @@ def get_cursor_id(table_name):
 
 
 def recording_data():  # разбираем данные и пишем в базу
+
     data = get_json()
     conn = sqlite3.connect(db_path)  # Инициируем подключение к БД
     cursor = conn.cursor()
@@ -53,9 +54,7 @@ def recording_data():  # разбираем данные и пишем в баз
     # Пора все записать в БД
     cursor.execute(f'INSERT INTO all_data VALUES (Null, "{acqpc_status}", "{acqpc_datasource_status}", "{autopays_datasource_status}", "{free_disk_space_procent}", "{ping_status}", "{rabbit_status}", "{rabbit_version}", "{redis_status}", "{redis_version}", "{request_time}")')
     conn.commit()
-    time.sleep(60)  # делаем функцию итеративной
     check_values()
-    recording_data()
 
 
 def check_values():
@@ -81,13 +80,13 @@ def check_values():
     try:  # По итерации сравниваются значения двух массивов. 8 - это кол-во элементов в каждом массиве
         for i in range(0, 8):
             if val[0][i] != val[1][i]:
-                logger.info(f'Значение "{values_names[i]}" сменилось с {val[0][i]} на {val[1][i]}')
+                logger.info(f'Value "{values_names[i]}" changed whith {val[0][i]} to {val[1][i]}')
                 alarmtext = f'Значение "{values_names[i]}" сменилось с {val[0][i]} на {val[1][i]}'
                 do_alarm(alarmtext)
                 logger.info('Сработал аларм')
     except IndexError:
         print('Индексы кончились')
-        logger.info('Кончились индексы в def check_values(). Проверь какие данные выгружаешь и сколько.')
+        logger.error('Out of indexes in def check_values(). Check What are you download from bd.')
 
 
 def do_alarm(alarmtext):  # отправка сообщения в канал slack
@@ -98,8 +97,12 @@ def do_alarm(alarmtext):  # отправка сообщения в канал sl
 
 
 if __name__ == '__main__':
-    try:
-        recording_data()
-    except KeyboardInterrupt:
-        print('Работа программы завершена')
-        logger.info('Работа программы завершена вручную')
+    while True:
+        try:
+            recording_data()
+            time.sleep(6)
+        except KeyboardInterrupt:
+            print('Program has been stop manually')
+            logger.info('Program has been stop manually')
+        except Exception:
+            logger.error('Other except error')
