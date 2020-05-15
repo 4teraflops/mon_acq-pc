@@ -100,7 +100,7 @@ if __name__ == '__main__':
     while True:
         try:
             recording_data()
-            time.sleep(6)
+            time.sleep(60)
         except KeyboardInterrupt:
             print('Program has been stop manually')
             logger.info('Program has been stop manually')

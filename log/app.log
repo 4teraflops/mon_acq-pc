@@ -1,0 +1,67 @@
+connectionpool.py[LINE:221]# DEBUG    [2020-05-15 10:10:24,227]  Starting new HTTP connection (1): 10.10.137.53:8080
+app.py[LINE:108]# ERROR    [2020-05-15 10:10:45,230]  Other except error
+connectionpool.py[LINE:221]# DEBUG    [2020-05-15 10:10:45,233]  Starting new HTTP connection (1): 10.10.137.53:8080
+app.py[LINE:108]# ERROR    [2020-05-15 10:11:06,237]  Other except error
+connectionpool.py[LINE:221]# DEBUG    [2020-05-15 10:11:06,240]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:11:42,657]  Starting new HTTP connection (1): 10.10.137.53:8080
+app.py[LINE:108]# ERROR    [2020-05-15 10:12:03,660]  Other except error
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:12:03,664]  Starting new HTTP connection (1): 10.10.137.53:8080
+app.py[LINE:108]# ERROR    [2020-05-15 10:12:24,668]  Other except error
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:12:24,670]  Starting new HTTP connection (1): 10.10.137.53:8080
+app.py[LINE:108]# ERROR    [2020-05-15 10:12:45,709]  Other except error
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:12:45,710]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:12:45,753]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:12:51,776]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:12:51,819]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:12:57,839]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:12:57,882]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:03,906]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:03,947]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:09,971]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:10,011]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:16,025]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:16,067]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:22,080]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:22,123]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:28,137]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:28,179]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:34,195]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:34,238]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:40,252]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:40,293]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:46,307]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:46,350]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:52,359]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:52,402]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:13:58,413]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:13:58,456]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:04,470]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:04,513]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:10,526]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:10,567]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:16,579]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:16,621]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:22,646]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:22,686]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:28,708]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:28,751]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:34,763]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:34,805]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:40,819]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:40,862]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:46,874]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:46,915]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:52,929]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:52,970]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:14:58,983]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:14:59,024]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:15:05,038]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:15:05,084]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:15:11,094]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:15:11,137]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:15:17,152]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:15:17,194]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:15:23,205]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:15:23,246]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-15 10:15:29,259]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-15 10:15:29,300]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
