@@ -50,7 +50,8 @@ def recording_data():  # разбираем данные и пишем в баз
     rabbit_version = data['components']['rabbit']['details']['version']
     redis_status = data['components']['redis']['status']
     redis_version = data['components']['redis']['details']['version']
-    request_time = datetime.now()
+    now = datetime.now()
+    request_time = now.strftime('%d-%m-%Y %H:%M:%S')
     # Пора все записать в БД
     cursor.execute(f'INSERT INTO all_data VALUES (Null, "{acqpc_status}", "{acqpc_datasource_status}", "{autopays_datasource_status}", "{free_disk_space_procent}", "{ping_status}", "{rabbit_status}", "{rabbit_version}", "{redis_status}", "{redis_version}", "{request_time}")')
     conn.commit()
@@ -83,7 +84,7 @@ def check_values():
                 logger.info(f'Value "{values_names[i]}" changed whith {val[0][i]} to {val[1][i]}')
                 alarmtext = f'Значение "{values_names[i]}" сменилось с {val[0][i]} на {val[1][i]}'
                 do_alarm(alarmtext)
-                logger.info('Сработал аларм')
+                logger.info('Worked Alarm')
     except IndexError:
         print('Индексы кончились')
         logger.error('Out of indexes in def check_values(). Check What are you download from bd.')
@@ -100,8 +101,9 @@ if __name__ == '__main__':
     while True:
         try:
             recording_data()
-            time.sleep(1)
+            print('data recorded')
+            time.sleep(60)
         except KeyboardInterrupt:
             logger.info('Program has been stop manually')
         except Exception:
-            logger.error('Other except error')
+            logger.error(f'Other except error {Exception.__annotations__}')
