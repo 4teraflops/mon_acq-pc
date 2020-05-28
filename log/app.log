@@ -557,3 +557,95 @@ connectionpool.py[LINE:226]# DEBUG    [2020-05-15 16:04:15,358]  Starting new HT
 connectionpool.py[LINE:433]# DEBUG    [2020-05-15 16:04:15,402]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
 connectionpool.py[LINE:226]# DEBUG    [2020-05-15 16:05:15,412]  Starting new HTTP connection (1): 10.10.137.53:8080
 connectionpool.py[LINE:433]# DEBUG    [2020-05-15 16:05:15,455]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:21:51,128]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:21:51,175]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:21:58,342]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:21:58,390]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:23:15,512]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:23:15,554]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:23:41,229]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:23:41,275]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:26:56,668]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:26:56,711]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:26:56,715]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:26:57,376]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:28:55,807]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:28:55,849]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:28:55,852]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:28:56,510]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:28:56,514]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:28:56,557]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:28:56,560]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:28:57,101]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:22,723]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:22,766]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:22,771]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:23,354]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:23,359]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:23,401]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:23,404]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:23,955]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:23,963]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:24,005]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:24,010]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:24,520]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:24,528]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:24,575]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:24,577]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:25,172]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:25,177]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:25,218]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:25,221]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:25,746]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:25,751]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:30,619]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:30,661]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:30,664]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:31,207]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:31,211]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:31,253]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:31,256]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:31,812]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:31,819]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:31,861]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:31,866]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:32,397]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:29:32,406]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:29:32,449]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:29:32,451]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:32:02,753]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:32:02,795]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:32:02,797]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:32:03,407]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:38:31,514]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:38:31,557]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:38:31,559]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:38:32,181]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+app.py[LINE:113]# ERROR    [2020-05-28 17:38:32,186]  TypeError <class 'Exception'>
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:39:52,692]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:39:52,735]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:39:52,737]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:39:53,328]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+app.py[LINE:113]# ERROR    [2020-05-28 17:39:53,331]  TypeError <class 'Exception'>
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:40:37,870]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:40:37,913]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:40:37,918]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:40:38,473]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+app.py[LINE:113]# ERROR    [2020-05-28 17:40:38,476]  TypeError <class 'BaseException'>
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:41:03,022]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:41:03,065]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:41:03,067]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:41:03,663]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:48:00,583]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:48:00,627]  http://10.10.137.53:8080 "GET /monitor/healths HTTP/1.1" 404 None
+connectionpool.py[LINE:937]# DEBUG    [2020-05-28 17:48:00,632]  Starting new HTTPS connection (1): hooks.slack.com:443
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:48:01,221]  https://hooks.slack.com:443 "POST /services/T50HZSY2U/B0137AVNPGA/rMuQ9S3v5I6UWWDrK6b0WrMF HTTP/1.1" 200 22
+app.py[LINE:113]# ERROR    [2020-05-28 17:48:01,226]  TypeError Exception
+Traceback (most recent call last):
+  File "C:/Users/User/PycharmProjects/mon_acq-pc/app.py", line 107, in <module>
+    recording_data()
+  File "C:/Users/User/PycharmProjects/mon_acq-pc/app.py", line 46, in recording_data
+    acqpc_status = data['status']
+TypeError: 'NoneType' object is not subscriptable
+connectionpool.py[LINE:226]# DEBUG    [2020-05-28 17:49:16,783]  Starting new HTTP connection (1): 10.10.137.53:8080
+connectionpool.py[LINE:433]# DEBUG    [2020-05-28 17:49:16,828]  http://10.10.137.53:8080 "GET /monitor/health HTTP/1.1" 200 None

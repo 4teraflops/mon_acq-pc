@@ -22,7 +22,11 @@ def get_json():  # забираем json
     s = requests.session()
     url = 'http://10.10.137.53:8080/monitor/health'
     r = s.get(url)
-    return r.json()
+    if r.status_code == 200:
+        return r.json()
+    else:
+        alarmtext = f'При попытке опросить redis код ответа {r.status_code}. Мониторинг acqpc встал на паузу 350с'
+        do_alarm(alarmtext)
 
 
 def get_cursor_id(table_name):
@@ -105,5 +109,8 @@ if __name__ == '__main__':
             time.sleep(60)
         except KeyboardInterrupt:
             logger.info('Program has been stop manually')
+        except TypeError:  # Если ошибка записи данных, то пытаемся снова
+            logger.error(f'TypeError Exception', exc_info=True)
+            time.sleep(650)
         except Exception:
-            logger.error(f'Other except error {Exception.__annotations__}')
+            logger.error(f'Other except error Exception', exc_info=True)
