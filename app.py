@@ -1,6 +1,7 @@
 import requests
 import sqlite3
-import os, importlib
+import os
+import importlib
 from datetime import datetime
 import time
 import logging
